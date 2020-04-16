@@ -96,6 +96,7 @@ body {
       &:last-child {
         a , span{
             color: $bg;
+            @include f500;
         }
       }
     }
